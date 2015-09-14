@@ -10,6 +10,7 @@ public class TestCircle {
 			cirarr[i] = new Circle();
 		}
 		
+		
 		System.out.println("Totally " + Circle.getCount() + " Circles are created!");
 	}
 
