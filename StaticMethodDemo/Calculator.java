@@ -9,6 +9,9 @@ public class Calculator {
 	    double b = sc.nextDouble();    
 	    System.out.println("Please type the value of c: ");
 	    double c = sc.nextDouble();
+
+            sc.close();	    
+	
 	    double discriminant = Math.pow(b,2) - 4.0*c;
 	    double d = Math.sqrt(discriminant);
 	    double root1 = (-b + d) / 2.0;
